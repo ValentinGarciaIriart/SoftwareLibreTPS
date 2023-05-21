@@ -4,4 +4,6 @@ El daemon programado consta de un archivo de servicio (systemd). El daemon reali
 
 ## TP2: ?
 
-## TP3: 
+## TP3: ExerciseHamming.py / Pattern37.js / Pattern37.py
+#### ExerciseHamming.py: Colaboración para unos estudiantes de una facultad brasilera/portuguesa en donde solicitaban la implementación de Hamming 7,4 que es un código detector y corrector de errores.
+#### Pattern37.js y .py: Colaboración en la que planteando una lógica muy simple se imprime un patrón de estrella en base a un valor de entrada, escrito tanto en Python como en JavaScript ya que así lo solicitaba.
