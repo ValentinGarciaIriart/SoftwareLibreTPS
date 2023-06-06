@@ -6,5 +6,5 @@ El daemon programado consta de un archivo de servicio (systemd). El daemon reali
 Allí se encuentran de momento la estructura de la interfaz en HTML y el estilo en CSS, próximamente estará diseñada la lógica correspondiente al TP2.
 
 ## TP3: ExerciseHamming.py / Pattern37.js / Pattern37.py
-#### ExerciseHamming.py: Colaboración para unos estudiantes de una facultad brasilera/portuguesa en donde solicitaban la implementación de Hamming 7,4 que es un código detector y corrector de errores. Del archivo las funciones del código de repetición ya estaban desarolladas por los dueños del repositorio.
+#### ExerciseHamming.py: Colaboración para unos estudiantes de una facultad portuguesa en donde solicitaban la implementación de Hamming 7,4 que es un código detector y corrector de errores. Del archivo las funciones del código de repetición ya estaban desarolladas por los dueños del repositorio.
 #### Pattern37.js y .py: Colaboración en la que planteando una lógica muy simple se imprime un patrón de estrella en base a un valor de entrada, escrito tanto en Python como en JavaScript ya que así lo solicitaba.
