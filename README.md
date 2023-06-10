@@ -1,4 +1,6 @@
 # SoftwareLibreTPS
+## Escalante, Santiago
+## García Iriart, Valentín
 ## TP1: ejDaemon.js y su archivo de servicio
 #### El daemon programado consta de un archivo de servicio (systemd). El daemon imprime en el log la fecha, hora y el clima de la ciudad de Mar del Plata mediante la ayuda de una API (gratuita) del sitio AccuWeather. Para darle más "complejidad", se utiliza como input a la ciudad de Mar del Plata, previamente obteniendo la dirección IP del dispositivo para obtener justamente la localización geográfica.
 
