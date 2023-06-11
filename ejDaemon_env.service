@@ -1,0 +1,13 @@
+[Unit]
+Description=ejDaemon_env.js
+
+[Service]
+User=santiago
+ExecStart=/usr/bin/node /home/santiago/SoftwareLibreTPS/ejDaemon.js
+Restart=on-failure
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=DaemonTPSW
+
+[Install]
+WantedBy=multi-user.target
