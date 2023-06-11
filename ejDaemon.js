@@ -31,7 +31,7 @@ function getClima(){
                 if(datos[0]){    
                     let celsius= (datos[0].Temperature.Value-32)*(5/9)
                     contenido = "Fecha: "+Date().toString() + " Temperatura: "+celsius.toFixed(1)+"°C"+ " Estado: "+datos[0].IconPhrase;
-                    tiempoInterval=60*60000; //1 hora para el proximo pronostico
+                    tiempoInterval=60000; //1 hora para el proximo pronostico
                 }
                  //Si se pasa algun parametro mal 
                 else if (datos.Code == 'Unauthorized'){  
@@ -98,7 +98,7 @@ function getPublicIP(){
            });
      })
      req.on('error',(errorReq)=>{
-        reject('error al obtener la ip:'+errorReq);
+        reject('error de request para obtener la ip:'+errorReq);
      })
   });
 }
@@ -138,7 +138,7 @@ function getAutocomplete(ubicacion){
             });
         });
         req.on('error',(erreq)=>{
-            reject('error al obtener el identificador de localizacion:error de conexion'+erreq);
+            reject('error de request por el identificador de localizacion:error de conexion'+erreq);
         })
     })
 }
