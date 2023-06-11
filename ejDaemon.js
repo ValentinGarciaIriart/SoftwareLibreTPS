@@ -31,7 +31,7 @@ function getClima(){
                 if(datos[0]){    
                     let celsius= (datos[0].Temperature.Value-32)*(5/9)
                     contenido = "Fecha: "+Date().toString() + " Temperatura: "+celsius.toFixed(1)+"°C"+ " Estado: "+datos[0].IconPhrase;
-                    tiempoInterval=60000; //1 hora para el proximo pronostico
+                    tiempoInterval=60*60000; //1 hora para el proximo pronostico
                 }
                  //Si se pasa algun parametro mal 
                 else if (datos.Code == 'Unauthorized'){  
