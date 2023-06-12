@@ -15,4 +15,5 @@
 #### Pattern39.py: Similar a la anterior colaboracion pero para otro patrón, la finalidad es realizar el patron utilizando la menor cantidad de estructuras posibles.
 ##### https://github.com/Vishal21121/Patterns-different-language/pull/87
 #### Ruteo utilizando el paquete router-dom en react: requería adaptar el ruteo existente para utilizar la funcionalidad que da el paquete router-dom.
+##### https://github.com/jain-rishabh-21/DoctorVerse/pull/81
 ##### Aclaración: salvo el Hamming, los demás fueron mergeadas.
